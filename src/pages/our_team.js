@@ -3,14 +3,27 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import Carousel from 'nuka-carousel';
 
-const SecondPage = () => (
+const our_team = () => (
   <Layout>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
+    <SEO title="Team Under Pressure" />
+    <h1>Our Team</h1>
+    <Carousel
+      heightMode={'first'}
+      slidesToShow="5"
+      disableAnimation={true}
+      withoutControls={true}
+    >
+      <img src="https://source.unsplash.com/random/400x800"/>
+      <img src="https://source.unsplash.com/random/400x800"/>
+      <img src="https://source.unsplash.com/random/400x800"/>
+      <img src="https://source.unsplash.com/random/400x800"/>
+      <img src="https://source.unsplash.com/random/400x800"/>
+    </Carousel>
+    <p>Site in progress.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default SecondPage
+export default our_team
