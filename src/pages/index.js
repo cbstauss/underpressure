@@ -14,15 +14,17 @@ const IndexPage = () => (
     <Carousel
 
       autoplay={true}
-      speed={.1}
+      speed={5}
+      swiping={true}
       enableKeyboardControls={false}
       transitionMode={'fade'}
       heightMode={'max'}
       pauseOnHover={true}
       wrapAround={true}
     >
-        <img src="https://source.unsplash.com/random/3840 x 2160" />
-        <img src="https://source.unsplash.com/random/1920x1080" />
+        <Link to="/hardware"><img src="https://source.unsplash.com/random/1920x1080"/></Link>
+        <Link to="/software"><img src="https://source.unsplash.com/random/2048x1080"/></Link>
+        <Link to="/our_team"><img src="https://source.unsplash.com/random/3840x2160"/></Link>
     </Carousel>
     <h1>Site in progress.</h1>
   </Layout>

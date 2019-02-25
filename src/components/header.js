@@ -17,8 +17,9 @@ const Header = ({ siteTitle }) => (
       <Navbar.Brand href="#home">Under Pressure</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Nav className="ml-auto">
-        <Nav.Link href="#home">Documents</Nav.Link>
-        <Nav.Link href="#link">Our Team</Nav.Link>
+        <Link to="/hardware"><Nav.Link href="#link">Hardware</Nav.Link></Link>
+        <Link to="/software"><Nav.Link href="#link">Software</Nav.Link></Link>
+        <Link to="/our_team"><Nav.Link href="#link">Our Team</Nav.Link></Link>
       </Nav>
     </Navbar>
   </header>
