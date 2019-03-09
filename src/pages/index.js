@@ -12,21 +12,32 @@ const IndexPage = () => (
   <Layout>
     <header></header>
     <Carousel
-
       autoplay={true}
       speed={5}
-      swiping={true}
+      swiping={false}
       enableKeyboardControls={false}
       transitionMode={'fade'}
       heightMode={'max'}
       pauseOnHover={true}
       wrapAround={true}
     >
-        <Link to="/hardware"><img src="https://source.unsplash.com/random/1920x1080"/></Link>
-        <Link to="/software"><img src="https://source.unsplash.com/random/2048x1080"/></Link>
-        <Link to="/our_team"><img src="https://source.unsplash.com/random/3840x2160"/></Link>
+        <div class="container">
+          <Link to="/hardware"><img src="https://source.unsplash.com/random/1920x1080" alt="Random Picture from Unsplash"/></Link>
+          <div class="bottom-left">Hardware</div>
+        </div>
+        <div class="container">
+          <Link to="/software"><img src="https://source.unsplash.com/random/2048x1080" alt="Random Picture from Unsplash"/></Link>
+          <div class="bottom-left">Software</div>
+        </div>
+        <div class="container">
+          <Link to="/our_team"><img src="https://source.unsplash.com/random/3840x2160" alt="Random Picture from Unsplash"/></Link>
+          <div class="bottom-left">Our Team</div>
+        </div>
     </Carousel>
-    <h1>Site in progress.</h1>
+    <center>
+      <h1>Underpressure. IoT TPMS Solution.</h1>
+      <h5>Click an image above for more information.</h5>
+    </center>
   </Layout>
 )
 

@@ -14,7 +14,7 @@ const Header = ({ siteTitle }) => (
       crossorigin="anonymous"
     />
     <Navbar bg="dark" expand="lg" variant="dark">
-      <Navbar.Brand href="#home">Under Pressure</Navbar.Brand>
+      <Navbar.Brand href="/">Under Pressure</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Nav className="ml-auto">
         <Link to="/hardware"><Nav.Link href="#link">Hardware</Nav.Link></Link>

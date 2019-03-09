@@ -15,11 +15,11 @@ const our_team = () => (
       disableAnimation={true}
       withoutControls={true}
     >
-      <img src="https://source.unsplash.com/random/400x800"/>
-      <img src="https://source.unsplash.com/random/400x800"/>
-      <img src="https://source.unsplash.com/random/400x800"/>
-      <img src="https://source.unsplash.com/random/400x800"/>
-      <img src="https://source.unsplash.com/random/400x800"/>
+      <img src="https://source.unsplash.com/random/400x800" alt="Random Picture from Unsplash"/>
+      <img src="https://source.unsplash.com/random/400x800" alt="Random Picture from Unsplash"/>
+      <img src="https://source.unsplash.com/random/400x800" alt="Random Picture from Unsplash"/>
+      <img src="https://source.unsplash.com/random/400x800" alt="Random Picture from Unsplash"/>
+      <img src="https://source.unsplash.com/random/400x800" alt="Random Picture from Unsplash"/>
     </Carousel>
     <p>Site in progress.</p>
     <Link to="/">Go back to the homepage</Link>
