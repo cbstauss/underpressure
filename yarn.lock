@@ -4724,6 +4724,33 @@ gatsby-cli@^2.4.10:
     yargs "^11.1.0"
     yurnalist "^1.0.2"
 
+gatsby-cli@^2.4.11:
+  version "2.4.14"
+  resolved "https://registry.yarnpkg.com/gatsby-cli/-/gatsby-cli-2.4.14.tgz#5013fbccd2e9c7060065d1f757c08c427627c758"
+  integrity sha512-estCxsdYs1WVuoGTcuszTdbx7xGexsUrslUaEgtybf8jWzpy5xA0M4T6DnzLSEN8HIbal3AiM+nQvPMInjYl3A==
+  dependencies:
+    "@babel/code-frame" "^7.0.0"
+    "@babel/runtime" "^7.0.0"
+    bluebird "^3.5.0"
+    common-tags "^1.4.0"
+    convert-hrtime "^2.0.0"
+    core-js "^2.5.0"
+    envinfo "^5.8.1"
+    execa "^0.8.0"
+    fs-exists-cached "^1.0.0"
+    fs-extra "^4.0.1"
+    hosted-git-info "^2.6.0"
+    lodash "^4.17.10"
+    meant "^1.0.1"
+    opentracing "^0.14.3"
+    pretty-error "^2.1.1"
+    resolve-cwd "^2.0.0"
+    source-map "^0.5.7"
+    stack-trace "^0.0.10"
+    update-notifier "^2.3.0"
+    yargs "^12.0.5"
+    yurnalist "^1.0.2"
+
 gatsby-image@^2.0.29:
   version "2.0.29"
   resolved "https://registry.yarnpkg.com/gatsby-image/-/gatsby-image-2.0.29.tgz#38475842b6e9a5d58c4e3bec875179b959c7d7ab"
@@ -6969,6 +6996,11 @@ mdn-data@~1.1.0:
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/mdn-data/-/mdn-data-1.1.4.tgz#50b5d4ffc4575276573c4eedb8780812a8419f01"
   integrity sha512-FSYbp3lyKjyj3E7fMl6rYvUdX0FBXaluGqlFoYESWQlyUTq8R+wp0rkFxoYFqZlHCvsUXGjyJmLQSnXToYhOSA==
+
+meant@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/meant/-/meant-1.0.1.tgz#66044fea2f23230ec806fb515efea29c44d2115d"
+  integrity sha512-UakVLFjKkbbUwNWJ2frVLnnAtbb7D7DsloxRd3s/gDpI8rdv8W5Hp3NaDb+POBI1fQdeussER6NB8vpcRURvlg==
 
 media-typer@0.3.0:
   version "0.3.0"

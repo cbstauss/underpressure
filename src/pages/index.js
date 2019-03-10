@@ -7,6 +7,7 @@ import SEO from "../components/seo"
 import header from "../components/header"
 import { checkPropTypes } from "prop-types";
 import Carousel from 'nuka-carousel';
+import logo from "../images/logo.jpg"
 
 const IndexPage = () => (
   <Layout>
@@ -22,15 +23,15 @@ const IndexPage = () => (
       wrapAround={true}
     >
         <div class="container">
-          <Link to="/hardware"><img src="https://source.unsplash.com/random/1920x1080" alt="Random Picture from Unsplash"/></Link>
+          <Link to="/hardware"><img src="https://source.unsplash.com/SJ5TmRRSM1U/1920x1080" alt="Hardware"/></Link>
           <div class="bottom-left">Hardware</div>
         </div>
         <div class="container">
-          <Link to="/software"><img src="https://source.unsplash.com/random/2048x1080" alt="Random Picture from Unsplash"/></Link>
+          <Link to="/software"><img src="https://source.unsplash.com/Skf7HxARcoc/1920x1080" alt="Random Picture from Unsplash"/></Link>
           <div class="bottom-left">Software</div>
         </div>
         <div class="container">
-          <Link to="/our_team"><img src="https://source.unsplash.com/random/3840x2160" alt="Random Picture from Unsplash"/></Link>
+          <Link to="/our_team"><img src= {logo} alt="Random Picture from Unsplash"/></Link>
           <div class="bottom-left">Our Team</div>
         </div>
     </Carousel>
