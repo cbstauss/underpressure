@@ -23,15 +23,15 @@ const IndexPage = () => (
       wrapAround={true}
     >
         <div class="container">
-          <Link to="/hardware"><img src="https://source.unsplash.com/SJ5TmRRSM1U/1920x1080" alt="Hardware"/></Link>
+          <Link to="/hardware"><img src="https://source.unsplash.com/SJ5TmRRSM1U/1920x1080" alt="Hardware Used in Under Pressure TPMS"/></Link>
           <div class="bottom-left">Hardware</div>
         </div>
         <div class="container">
-          <Link to="/software"><img src="https://source.unsplash.com/Skf7HxARcoc/1920x1080" alt="Random Picture from Unsplash"/></Link>
+          <Link to="/software"><img src="https://source.unsplash.com/Skf7HxARcoc/1920x1080" alt="Programming Under Pressure TPMS on PC"/></Link>
           <div class="bottom-left">Software</div>
         </div>
         <div class="container">
-          <Link to="/our_team"><img src= {logo} alt="Random Picture from Unsplash"/></Link>
+          <Link to="/our_team"><img src= {logo} alt="Under Pressure Logo"/></Link>
           <div class="bottom-left">Our Team</div>
         </div>
     </Carousel>

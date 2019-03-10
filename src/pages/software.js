@@ -8,7 +8,7 @@ const software = () => (
   <Layout>
     <SEO title="Under Pressure Software" />
     <h1>Software</h1>
-    <p>Site in progress.</p>
+    <p>Explain software stack used to create device on Windows, Mac, and RPi/CC1312.</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
